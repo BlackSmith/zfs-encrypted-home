@@ -15,7 +15,7 @@
 ##			- More error and sanity checking.
 ##			- More output for troubleshooting.
 
-
+export PATH="/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/snapd/snap/bin"
 set -eu
 
 function fMain(){
